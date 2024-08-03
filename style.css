@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #17153B;
+}
+.card {
+    width: 30rem;
+    background-color: #433D8B;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+.header {
+    color: white;
+    font-size: 50px;
+}
+.generate-btn {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.generated-el {
+    width: 200px;
+    background-color: #17153B;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.generate-btn:active {
+    border: 1px solid green;
+}
+.copy-el {
+    color: rgb(6, 190, 6);
+}
